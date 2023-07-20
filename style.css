@@ -1,0 +1,91 @@
+*{
+    text-decoration:none;
+    margin: 0;
+    padding:0;
+}
+
+.navbar{
+    background-color: #000642; font-family:calibri; padding-right:15px; padding-left:15px;
+}
+.navdiv{
+    display:flex; align-items:center; justify-content: space-between;
+}
+.logo a{
+    font-size: 40px; font-weight: 600;color:aliceblue;justify-content: center;
+}
+.navdiv li{
+    list-style: none; display:inline-block;
+}
+.navdiv li a{
+    font-size: 35px; font-size:25px;font-weight: 600;color:aliceblue;margin: 25px;
+}
+button{
+    background-color: #344b7b;margin: 10px;border-radius: 10px;padding: 10px;width:100px; border-color: aliceblue;border-width: 1rex;
+    font-size: 20px;font-family:calibri;color:aliceblue;
+}
+button a{
+    font-size: 20px;font-family:calibri;color:aliceblue;
+}
+body{
+    background-color: #132660;
+}
+.bgimage{
+    background-image: url(./images/hotstar-2.jpg);
+    
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container{
+    background-color:#ecf0f3;
+    padding:15px;
+    border-radius:30px;
+    box-shadow:inset 5px 5px 12px #ffffff,
+                     5px 5px 12px rgba(0,0,0,.16);
+         
+    align-items:center; 
+    justify-content:center;
+    font-size: 40px;font-family:calibri;color:#000642;
+    text-align: center;
+    margin:auto
+    
+}
+section{
+    background-color: #132660 ;
+    padding: 80px 13% 30px;
+
+}
+.footer{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap:2.5rem;
+    background:#132660 ;
+    position:absolute;
+    left:0;
+    right:0;
+    
+}
+.footercont{
+    color:#fff;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 1.0rem;
+    margin-left: 1.0rem;
+    font-size: 20px;
+    font-family: calibri;
+}
+.footercont ul{
+    margin-bottom:16px;
+}
+.footercont ul a{
+    display:block;
+    color:#ecf0f3;
+    font-size: 15px;
+    
+    font-weight: 600;
+    transition:all .40s ease;
+}
+.footercont p{
+    
+}
